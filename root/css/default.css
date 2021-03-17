@@ -1,0 +1,367 @@
+* 
+{
+    box-sizing: border-box; 
+    font-family: 'Oswald', sans-serif;
+}
+
+body
+{
+    margin:0;  
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff6600;      
+}
+
+nav
+{
+    width:100%;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 500;
+}
+
+li 
+{
+    float: left;
+}
+li a:hover 
+{
+    background-color: #333333;
+}
+  
+a 
+{
+    display: block;
+    padding: 8px;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 42px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footerText
+{ 
+    padding-top: 100px;
+    text-align:center;
+}
+
+img:not(#HomeImage)
+{
+    border-radius: 3px;
+}
+
+#HomeImage
+{
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.image2Container
+{
+    display: inline-block;
+    text-align: center;
+}
+#HomeImage2
+{
+   width:30%;
+   margin-right: 50px;
+   margin-bottom: -5px;
+   padding-top: 30px;
+   float:right;
+}
+
+#HomeImage2Text
+{
+    font-family: 'Oswald', sans-serif;
+    color:#ff6600;
+    padding-top: 50px;
+    font-size: 45px;
+}
+
+.ImageContaier
+{
+    position: relative;
+    width: 70%;
+}
+.Image3Contaier
+{
+    width: 100%;
+    margin-top: 150px;
+}
+.Image
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.Overlay
+{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ff6600;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+.ImageContaier:hover .Overlay 
+{
+    bottom: 0;
+    height: 100%;
+}
+.content
+{
+    white-space: nowrap; 
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+.Button
+{
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80%;
+    width:100%;
+    cursor: pointer;
+    display: block; 
+}
+
+.textAnim
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 100%;
+    cursor: pointer;
+    display: block;
+}
+
+label
+{
+    display: inline-block;
+}
+.inputText, .inputEmail
+{
+    display: inline-block;
+    width: 30%;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.radioLabel
+{
+    width:100px;
+}
+
+textarea
+{
+    width: 30%;
+    height: 150px;
+    padding: 6px 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.submitInput
+{
+    width:10%;
+    padding: 15px 32px;
+    border: none;
+    color: white;
+    background-color: #333333;   
+    text-align: center;
+    font-family: 'Oswald', sans-serif;  
+    cursor: pointer;
+}
+
+#RekklesWarmUpImg
+{
+    width:30%;
+    height:auto;
+    float:right;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+#RekklesThink
+{
+    width:30%;
+    height:auto;
+    float:left;
+    margin-right: 10px;
+}
+
+.ItemContainer
+{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+}
+
+.shopFlex:after
+{
+    content: "";
+    display: table;
+}
+
+.buyButton
+{
+    width:30%;
+    margin: 0 auto;
+}
+.quantityInput
+{
+    width:20%;
+}
+.ShoppingCart
+{
+    width: 50%;
+}
+.checkoutBtn
+{
+    width:10%;
+    margin-top:20px;
+    margin-left: 60px;
+    display:inline-block;
+}
+.removeBtn
+{
+    color:red;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) 
+{
+    nav
+    {
+        width:100%;
+        position: sticky;
+        top: 0; 
+    }
+    ul li 
+    {
+        float: none;
+    }
+    #HomeImage
+    {
+        padding-top: 0px;
+    }  
+    #HomeImage2
+    {
+        width:60%;
+        padding-top: 30px;
+        display: block;   
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #HomeImage2Text
+    {
+        font-family: 'Oswald', sans-serif;
+        color:#ff6600;
+        display: block; 
+        padding-top: 50px;
+        margin-top: -10px;
+        font-size: 23px;
+    }
+    .Image3Contaier
+    {
+        margin-top: 50px;
+    }
+    .img3Content
+    {
+        display: block;
+    }
+    .fbpageText
+    {
+        font-size: 10px;
+        text-align: center;
+        float:left;
+    }
+    .img3Btn
+    {
+        text-align: center;
+        float:left;
+        width: 10%;
+    }
+    #RekklesWarmUpImg
+    {
+        width:60%;
+        height:auto;  
+    }
+    #RekklesThink
+    {
+        width:50%;
+        height:auto;
+    }
+    .ContactFormButton
+    {
+        width:30%;   
+    }
+    .ItemContainer
+    {   
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    .quantityInput
+    {
+        width:80%;
+    }
+    .buyButton
+    {
+        text-align: center;
+        width:80%;
+    }
+    .ShoppingCart
+    {
+        width: 100%;
+    }
+    .checkoutBtn
+    {
+        width:30%;
+        margin-top:20px;
+        margin-left: 60px;
+    }
+    .submitInput
+    {
+        width:30%;
+        margin-top:20px;
+        margin-left: 60px;
+    }
+}
+
