@@ -40,7 +40,7 @@
     <p id='HomeImage2Text'>Martin "Rekkles" Larsson is a League of Legends esports player, currently bot laner for Fnatic</p> 
 </div><br><br><br>
 
-<h1 style="text-align:center; color:#ff6600;">The pillars of his career:</h3>
+<h1 style="text-align:center; color:#ff6600;">The pillars of his career:</h1>
 
 <!--ΕΙΚΟΝΕΣ ΜΕ ΛΙΝΚ-->
 <div>
